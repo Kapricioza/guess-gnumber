@@ -31,9 +31,9 @@ folder_path = os.path.join(best_drive, "Zgadywanie")
 
 
 url = "https://kropa.pl/data/gfx/pictures/large/7/4/110147_1.jpg"
-music_path = "D:/music/papiez.mp3"
+music_path = "D:/PythonProjects/main/music/papiez.mp3"
 source_image = os.path.join(folder_path, "obraz.jpg")
-gif_path = "D:/papiez.gif"
+gif_path = "D:/PythonProjects/main/gif/papiez.gif"
 
 
 pygame.mixer.init()
@@ -91,7 +91,7 @@ def check_guess():
                 text=f"Niepoprawny format bakłażanie, \n python się na ciebie obraził: \n {len(user_input)} ", justify="center"
             )
         else:
-            feedback_label.config(text="Proszę podać prawidłową liczbę!", justify="center")
+            feedback_label.config(text="Proszę podać prawidłową liczbę w poprawnym formacie!", justify="center")
         return
 
 
